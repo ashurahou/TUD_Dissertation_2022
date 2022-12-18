@@ -1,0 +1,189 @@
+\documentclass{dissertation}
+
+%% Turn off page numbering for the propositions and make the margins on both
+%% sides equal and symmetrical.
+\geometry{twoside=false}
+\pagestyle{empty}
+
+\begin{document}
+
+%% Specify the title and author of the thesis. This information will be used on
+%% both the English and Dutch side and in the metadata of the final PDF.
+\title{Systematic Search for New Solutions in Lens Design}
+\author{Zhe}{HOU}{哲}{侯}
+
+\begin{center}
+
+{\Large\titlefont\bfseries Propositions}
+
+\bigskip
+
+accompanying the dissertation
+
+\bigskip
+
+%% Print the title.
+{\makeatletter
+\titlestyle\bfseries\large\@title
+\makeatother}
+
+
+%% Print the optional subtitle.
+{\makeatletter
+\ifx\@subtitle\undefined\else
+    \titlefont\titleshape\@subtitle
+\fi
+\makeatother}
+
+
+\bigskip
+
+by
+
+\bigskip
+
+%% Print the full name of the author.
+\makeatletter
+{\large\titlefont\bfseries\@firstname\ {\titleshape\@lastname}}
+\makeatother
+
+\end{center}
+
+\bigskip
+\bigskip
+
+\begin{enumerate}
+
+\item The quality of the solution for an optical design will become more and more dependent upon the skill of the designer in stating the requirements of the design in an appropriate merit function, and less and less on selecting a reasonable starting point. 
+\small{(This proposition pertains to this dissertation.)}
+\normalsize%%--- \textit{The Art and Science of Optical Design} by Robert R.~Shannon %\cite{book:Shannon1997}  % I maybe do not need to put a reference
+
+ %\textcolor{blue}{\textbf{Explanation:} This is a twist from Robert R. Shannon's words in the book of \textit{Art and Science of Optical Design}. I would like to argue that the construction of the merit function is instrumental for the design work --- Once the merit function is defined properly, reaching to the solution can use various techniques (e.g. SPC). It is then merely an engineering work for the PC to find the  good solution. In addition, given what is stated in the dissertation, a good starting point becomes less important since there is always technique to switch out of the local minima. The benefit of selecting a good starting point is the chance of getting a high-quality solution \textit{quickly}.}  
+
+\item Observers in the three-dimensional space can only understand higher-dimensional space via analogies from the three or lower dimensional space. 
+\small{(This proposition pertains to this dissertation.)}
+\normalsize
+%\textcolor{blue}{\textbf{Explanation:} This refers to the fact that all concepts explained in this dissertation related to high-dimensional space are using concepts in 2D or 3D space as analogies. The visualizations of \textit{landscape, saddle point, basin} and \textit{hyperplane} are all based on what we can understand from the 2D and 3D space. One can argue that using math, the rules can be extended to the higher-dimensional space. However, I doubt if we truly \textit{understand} that (even if we can, the communication can only be done with our confined imagination in our own dimensions). Math as an way for abstraction comes from real life (people abstracts real life and invented Math). For higher-dimensional space, one has never observed one in real. }
+
+\item The type of optimizer used is essential for the optimization outcome.
+%\textcolor{blue}{\textbf{Explanation:} I would like to argue that the result of the observation is affected by the assumption of the tests. If a local optimizer is used, the assumption is that the optimization space can converged to some local minimum. The result of the optimization will be only one local minimum. One example is that a saddle point with Morse Index 1 does not necessarily lead to two local minima --- it connects two descending directions. It is the fact that we use local optimizer from the saddle point leads to two local minimum. However, the optimization space could connect to more or fewer minima. On the other hand, if we use a global optimizer for a non-global problem, it can happen that the multiple local minima are produced (e.g. the optimization space is large and global optimizer has not exhausted the whole search space).}
+
+\item The best strategy to solve a dynamic and complex problem is to set up a lot of intermediate checkpoints.  
+
+%\textcolor{blue}{\textbf{Explanation:} For optical design, it means the designer saves snapshots of the system at many stages. These stages reflect intermediate optimal status, from which if an exploration fails, one can always restore and explore alternatives. This can be manifested in many similar situations in life: tracking ropes in a dark-night hiking; anchoring points in a climbing activities; milestones set for a company project; save/load situation in video games. }
+
+\item Future design work (including optical design) will benefit tremendously from the development of virtual reality.
+
+%\textcolor{blue}{\textbf{Explanation:} I would like to argue the usability of a tool would affect the performance of the user a lot. From hand-calculated ray tracing (seeing how Irina was doing it in her time of study) to computer aided design, the efficiency of optical design has already improved significantly. Next step would be presenting the information in a structured and intuitive way such that a designer can grasp the critical information during a design and be freed from unnecessary labour work/distractions (e.g. countless clicks in the software). Virtual reality has the potential to present such a \textit{design environment} to the designers.}
+
+\item Before artificial intelligence emerges, there should be a stage where a \textit{Being} contains the hybrid intelligence of human and computers. 
+% taxes taken from the citizens, and the knowledge should be open to the citizens
+
+%\textcolor{blue}{\textbf{Explanation}: Seeing the trend of the current technology development, having directly an artificial intelligence is not practical to me. A more reasonable step is to enhance human intelligence with computer technologies. For instance, in CODEV, there are the \textit{Expert Functions}, essentially combining human expert knowledge with computer algorithms. There is also development on enhancing human functions by integrating sensors or simulators inside human body. Less-invasive devices are the wearable ones which can be perceived as an extended part for human intelligence. I am also inspired by a Science fiction called \textit{Uploaded Intelligence}, which describes human conscious being uploaded to the internet to become a new \textit{Being}. I think these things can happen in the future. } 
+
+\item A PhD project should always include sub-projects where the PhD candidate can coach/work with junior students and being asked about questions related to the PhD project. 
+
+%\textcolor{blue}{\textbf{Explanation:} My argument is that having junior students working together with the PhD candidate would help the PhD candidate practice teamwork and coaching skills. The positive interaction between the PhD candidate and junior student also stimulate the PhD candidate to think more about his/her own projects. On the other hand, junior students will also have more chance/time to discuss with a PhD candidate rather than work on his/her own. It is comes from my own experience during the PhD and my current experience at work.}
+% Cons, if a PhD student is clearly know what he gonna do, he still can practise supervising and ask the junior student to help out on other ideas. The junior student would also get more interactions.  
+
+\item To express the same amount of information, using Dutch language requires more number of pages than English. 
+
+%\textcolor{blue}{\textbf{Explanation:} I have compared the Summary and Samenvatting of 13 dissertations from Dutch Universities and concluded this proposition.}
+
+\item Worrying about no one takes care of the cat during one's holiday is not a valid reason to postpone getting a cat. 
+
+%\textcolor{blue}{\textbf{Explanation:} The fact is that so many cat lovers use the same excuses for not getting a cat, and they are very willing to take care of your cat during your holiday. }
+
+% \item Food brings memories which facilitate the progress. 
+
+\end{enumerate}
+
+\bigskip
+\bigskip
+
+%\begin{center}
+%\small These propositions are under review by the supervisor prof.\ dr.\ H.\ P.\ Urbach and dr.\ F.\  Bociort.
+%\end{center}
+
+
+%% Apart from the name and title of the supervisor, the following text is
+%% dictated by the promotieregelement.
+\begin{center}
+These propositions are regarded as opposable and defendable, and have been approved as such by the promotor(s) dr.\ F.\  Bociort.
+\end{center}
+
+\begin{comment}
+\clearpage
+{\selectlanguage{dutch}
+
+\begin{center}
+
+{\Large\titlefont\bfseries Stellingen}
+
+\bigskip
+
+behorende bij het proefschrift
+
+\bigskip
+
+%% Print the title.
+{\makeatletter
+\titlestyle\bfseries\large\@title
+\makeatother}
+
+%% Print the optional subtitle.
+{\makeatletter
+\ifx\@subtitle\undefined\else
+    \titlefont\titleshape\@subtitle
+\fi
+\makeatother}
+
+\bigskip
+
+door
+
+\bigskip
+
+%% Print the full name of the author.
+\makeatletter
+{\large\titlefont\bfseries\@firstname\ {\titleshape\@lastname}}
+\makeatother
+
+\end{center}
+
+\bigskip
+\bigskip
+
+\begin{enumerate}
+
+\item Stelling 1.
+\item Stelling 2.
+\item Stelling 3.
+\item Stelling 4.
+\item Stelling 5.
+\item Stelling 6.
+\item Stelling 7.
+\item Stelling 8.
+\item Stelling 9.
+\item Stelling 10.
+
+\end{enumerate}
+
+\bigskip
+\bigskip
+
+%% Apart from the name and title of the supervisor, the following text is
+%% dictated by the promotieregelement.
+\begin{center}
+Deze stellingen worden opponeerbaar en verdedigbaar geacht en zijn als zodanig goedgekeurd door de promotor prof.\ dr.\ ???.\ ???.
+\end{center}
+
+}
+
+%\bibliography{dissertation}{}
+%\references{dissertation}
+
+\end{comment}
+
+\end{document}
+

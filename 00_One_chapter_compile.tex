@@ -1,0 +1,55 @@
+\documentclass{dissertation}
+
+%\includeonly{chapter-0/chapter-0}
+%\includeonly{chapter-1/chapter-1}
+%\includeonly{chapter-2/chapter-2, chapter-3/chapter-3}
+%\includeonly{chapter-4/chapter-4}
+%\includeonly{chapter-5/chapter-5}
+%\includeonly{chapter-6/chapter-6}
+%\includeonly{chapter-appendices/Appendix}
+
+%\includeonly{chapter-1/chapter-1, chapter-4/chapter-4, chapter-6/chapter-6, chapter-7-appendices/Appendix}
+
+\begin{document}
+
+%% Specify the title and author of the thesis. This information will be used on
+%% the title page (in title/title.tex) and in the metadata of the final PDF.
+\includepdf[pages=-]{cover/cover_page_202210.pdf}
+%% Use Roman numerals for the page numbers of the title pages and table of
+%% contents.
+\title[Optional Subtitle]{Systematic Searches for New Solutions in Lens Design}
+\author{Zhe}{Hou}{哲}{侯}
+
+%% The (optional) dedication can be used to thank someone or display a
+%% significant quotation.
+
+%\tableofcontents
+
+
+%% Use Arabic numerals for the page numbers of the chapters.
+\mainmatter
+
+%\include{summary/summary}
+%\include{glossary/glossary}
+
+%% Turn on thumb indices.
+\thumbtrue
+% do not type .tex!!
+%\include{chapter-0/chapter-0}
+%\include{chapter-1/chapter-1}
+%\include{chapter-2/chapter-2}
+%\include{chapter-3/chapter-3}
+\include{chapter-4/chapter-4}
+\include{chapter-5/chapter-5}
+%\include{chapter-6/chapter-6}
+
+%\appendix
+%\include{chapter-appendices/Appendix}
+%\include{00_ATODO}
+%\include{appendix-a/appendix-a}
+
+%% Turn off thumb indices for unnumbered chapters.
+\thumbfalse
+% \include{publications/publications}
+\end{document}
+

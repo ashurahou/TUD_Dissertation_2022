@@ -1,0 +1,53 @@
+\documentclass{dissertation}
+
+\begin{document}
+
+% Include the cover from PDF files
+%\includepdf[pages=-]{cover/cover_page_202210.pdf}
+
+%% Specify the title and author of the thesis. This information will be used on
+%% the title page (in title/title.tex) and in the metadata of the final PDF.
+\title{Systematic Search for New Solutions in Lens Design}
+\author{Zhe}{HOU}{哲}{侯}
+
+%% Use Roman numerals for the page numbers of the title pages and table of
+%% contents.
+%\frontmatter
+
+\include{title/title}
+
+%% The (optional) dedication can be used to thank someone or display a
+%% significant quotation.
+\dedication{\epigraph{To my dearest parents\\I love you}{}} %necessary to keep the empty big parentheses
+
+%\include{preface/preface}
+
+\tableofcontents
+
+%% Use Arabic numerals for the page numbers of the chapters.
+\mainmatter
+
+%% Turn on thumb indices.
+\thumbtrue
+\include{summary/summary}
+\include{chapter-0/chapter-0}
+\include{chapter-1/chapter-1}
+\include{chapter-2/chapter-2}
+\include{chapter-3/chapter-3}
+\include{chapter-4/chapter-4}
+\include{chapter-5/chapter-5}
+\include{chapter-6/chapter-6}
+
+%% Use letters for the chapter numbers of the appendices.
+\appendix
+
+\include{chapter-appendices/Appendix}
+
+%% Turn off thumb indices for unnumbered chapters.
+\thumbfalse
+
+\include{cv/cv}
+\include{publications/publications}
+
+\end{document}
+
